@@ -119,10 +119,10 @@
       width: 100px;
     }
 
-    /* PERBAIKAN TOTAL: pseudo-code jadi sangat kontras, teks putih terang, background hitam pekat */
+    /* PERBAIKAN WARNA PSEUDO-CODE AGAR TIDAK PUCAT */
     pre {
-      background: #0a0c10 !important;      /* hitam pekat */
-      color: #ffffff !important;           /* putih murni, tidak pucat */
+      background: #0a0c10 !important;
+      color: #ffffff !important;
       padding: 1.25rem;
       border-radius: 1rem;
       overflow-x: auto;
@@ -131,10 +131,9 @@
       line-height: 1.5;
       margin: 1rem 0;
       box-shadow: inset 0 0 0 1px rgba(255,255,255,0.08), 0 6px 12px -8px rgba(0,0,0,0.3);
-      font-weight: 500;                    /* sedikit tebal agar lebih terbaca */
+      font-weight: 500;
     }
 
-    /* Pastikan semua teks di dalam pre ikut putih */
     pre, pre * {
       color: #ffffff !important;
     }
@@ -882,7 +881,7 @@ void main() {
     </div>
   </div>
 
-  <!-- 13. Kesimpulan (tanpa DartPad) -->
+  <!-- 13. Kesimpulan -->
   <div class="section">
     <h2>13. Kesimpulan</h2>
     <div class="nama">Rifqi Prayoga 251410005 SI2A</div>
@@ -896,7 +895,7 @@ void main() {
     <p>- Seluruh konsep factory constructor membantu menghasilkan kode yang lebih efisien, terstruktur, mudah dipelihara, dan mudah dikembangkan.</p>
   </div>
 
-  <!-- 14. Penutup (tanpa DartPad) -->
+  <!-- 14. Penutup -->
   <div class="section">
     <h2>14. Penutup</h2>
     <div class="nama">Rifqi Prayoga 251410005 SI2A</div>
